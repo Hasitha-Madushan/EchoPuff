@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-form {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 436px;
+    width: 100%;
+    height: 65%;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 13px 0;
+    border: 1px solid #222222;
+    border-radius: 25px;
+    font-size: 1.25rem;
+  }
+  
+  .signup-form button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 1.25rem;
+    margin-left: 25%;
+  }
+  
+  .signup-form button:hover {
+    background-color: #505050;
+  }
+  

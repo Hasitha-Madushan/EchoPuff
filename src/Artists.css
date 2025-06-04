@@ -1,0 +1,50 @@
+.artists-container1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+.artists-container1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.artists-grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.artist-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artist-card1 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.artist-card1 p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.artist-card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}

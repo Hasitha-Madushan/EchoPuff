@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-size: cover;
+    height: 100vh;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    background-color: rgba(51, 51, 51, 0.8);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 65%;
+    
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.input-group {
+    margin-bottom: 35px;
+    
+    
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 0px solid #0a0a0a;
+    border-radius: 25px;
+    background-color: #141414;
+    color: #fffdfd;
+    font-size: 1.25rem;
+}
+
+
+.login-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+    font-size: 1.25rem;
+}
+
+.login-button:hover {
+    background-color: #505050;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
