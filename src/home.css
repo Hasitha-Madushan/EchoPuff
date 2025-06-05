@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.897)), 
-    url('/Images/BG.jpg'); 
+    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
   height: 200px;
   width: 100%;
   background-image:  
-    url('/Images/BG3.JPG');
+    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG3.jpg');
   background-size: cover;
   background-position: center;
 
@@ -71,14 +71,14 @@ body {
   }
   
 .track-list {
-  max-height: 2900px; /* Reduced from 2980px to show scrollbar */
+  max-height: 2900px; 
   overflow-y: auto;
-  scrollbar-width: thin; /* For Firefox */
+  scrollbar-width: thin;
   scrollbar-color: #000000 transparent;
-  padding-right: 2px; /* Add space for scrollbar */
+  padding-right: 2px; 
 }
 
-/* Improved WebKit scrollbar styling */
+
 .track-list::-webkit-scrollbar {
   width: 8px;
 }
@@ -418,7 +418,7 @@ body {
     overflow: hidden;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('/Images/T.jpg');
+        url('C:\Users\home\Desktop\EchoPuff\src\assets\T.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -810,7 +810,7 @@ body {
   border-color: #7a7a7a;
 }
 
-/* Scrollbar styling */
+
 .playlist-list-container::-webkit-scrollbar {
   width: 6px;
 }
