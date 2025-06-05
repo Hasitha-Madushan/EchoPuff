@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.897)), 
-    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG.jpg'); 
+    url('/Images/BG.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
   height: 200px;
   width: 100%;
   background-image:  
-    url('C:\Users\home\Desktop\EchoPuff\src\assets\BG3.jpg');
+    url('/Images/BG3.jpg');
   background-size: cover;
   background-position: center;
 
@@ -418,7 +418,7 @@ body {
     overflow: hidden;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('C:\Users\home\Desktop\EchoPuff\src\assets\T.jpg');
+        url('/Images/T.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
